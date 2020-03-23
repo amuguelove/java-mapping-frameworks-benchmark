@@ -1,0 +1,121 @@
+Benchmark                                                                               Mode      Cnt       Score       Error   Units
+JavaMappingFrameworksBenchmark.realLifeTest                                            thrpt        3    6969.535 ± 12534.565  ops/ms
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark               thrpt        3      13.207 ±    27.889  ops/ms
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark           thrpt        3    6587.509 ± 11909.666  ops/ms
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark               thrpt        3      13.513 ±    26.603  ops/ms
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark               thrpt        3     355.306 ±   575.331  ops/ms
+JavaMappingFrameworksBenchmark.simpleTest                                              thrpt        3  189299.156 ± 85171.296  ops/ms
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark                   thrpt        3     796.405 ±   383.991  ops/ms
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark               thrpt        3  184902.795 ± 83444.268  ops/ms
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark                         thrpt        3    1171.778 ±   521.320  ops/ms
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark                   thrpt        3    2428.178 ±   896.137  ops/ms
+JavaMappingFrameworksBenchmark.realLifeTest                                             avgt        3       0.033 ±     0.020   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark                avgt        3       0.068 ±     0.042   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark            avgt        3      ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark                avgt        3       0.060 ±     0.037   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark                avgt        3       0.003 ±     0.001   ms/op
+JavaMappingFrameworksBenchmark.simpleTest                                               avgt        3       0.001 ±     0.002   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark                    avgt        3       0.001 ±     0.004   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark                avgt        3      ≈ 10⁻⁵               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark                          avgt        3       0.001 ±     0.002   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark                    avgt        3      ≈ 10⁻³               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest                                           sample  2855561       0.022 ±     0.001   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark              sample   491218       0.061 ±     0.001   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark·p0.00        sample                0.055               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark·p0.50        sample                0.059               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark·p0.90        sample                0.061               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark·p0.95        sample                0.066               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark·p0.99        sample                0.111               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark·p0.999       sample                0.182               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark·p0.9999      sample                1.208               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark·p1.00        sample                2.302               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark          sample   982345      ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark·p0.00    sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark·p0.50    sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark·p0.90    sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark·p0.95    sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark·p0.99    sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark·p0.999   sample                0.002               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark·p0.9999  sample                0.016               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark·p1.00    sample                2.101               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark              sample   562451       0.053 ±     0.001   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark·p0.00        sample                0.048               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark·p0.50        sample                0.051               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark·p0.90        sample                0.053               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark·p0.95        sample                0.058               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark·p0.99        sample                0.101               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark·p0.999       sample                0.169               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark·p0.9999      sample                1.196               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark·p1.00        sample                2.245               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark              sample   819547       0.002 ±     0.001   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark·p0.00        sample                0.002               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark·p0.50        sample                0.002               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark·p0.90        sample                0.002               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark·p0.95        sample                0.002               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark·p0.99        sample                0.004               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark·p0.999       sample                0.023               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark·p0.9999      sample                0.068               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark·p1.00        sample                2.159               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:realLifeTest·p0.00                        sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:realLifeTest·p0.50                        sample                0.002               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:realLifeTest·p0.90                        sample                0.059               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:realLifeTest·p0.95                        sample                0.059               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:realLifeTest·p0.99                        sample                0.075               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:realLifeTest·p0.999                       sample                0.145               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:realLifeTest·p0.9999                      sample                1.167               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:realLifeTest·p1.00                        sample                2.302               ms/op
+JavaMappingFrameworksBenchmark.simpleTest                                             sample  3713160       0.001 ±     0.001   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark                  sample   765972       0.001 ±     0.001   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark·p0.00            sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark·p0.50            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark·p0.90            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark·p0.95            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark·p0.99            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark·p0.999           sample                0.005               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark·p0.9999          sample                0.033               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark·p1.00            sample                1.288               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark              sample   834251      ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark·p0.00        sample               ≈ 10⁻⁶               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark·p0.50        sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark·p0.90        sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark·p0.95        sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark·p0.99        sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark·p0.999       sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark·p0.9999      sample                0.003               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark·p1.00        sample                1.270               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark                        sample  1003727       0.001 ±     0.001   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark·p0.00                  sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark·p0.50                  sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark·p0.90                  sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark·p0.95                  sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark·p0.99                  sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark·p0.999                 sample                0.003               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark·p0.9999                sample                0.023               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark·p1.00                  sample                1.239               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark                  sample  1109210       0.001 ±     0.001   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark·p0.00            sample               ≈ 10⁻⁴               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark·p0.50            sample               ≈ 10⁻³               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark·p0.90            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark·p0.95            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark·p0.99            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark·p0.999           sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark·p0.9999          sample                0.016               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark·p1.00            sample                1.307               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:simpleTest·p0.00                            sample               ≈ 10⁻⁶               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:simpleTest·p0.50                            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:simpleTest·p0.90                            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:simpleTest·p0.95                            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:simpleTest·p0.99                            sample                0.001               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:simpleTest·p0.999                           sample                0.003               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:simpleTest·p0.9999                          sample                0.020               ms/op
+JavaMappingFrameworksBenchmark.simpleTest:simpleTest·p1.00                            sample                1.307               ms/op
+JavaMappingFrameworksBenchmark.realLifeTest                                               ss        3      18.256 ±   532.901   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:dozerMapperRealLifeBenchmark                  ss        3      20.794 ±   582.247   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:mapStructRealLifeMapperBenchmark              ss        3       0.769 ±    22.918   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:modelMapperRealLifeBenchmark                  ss        3      20.267 ±   550.108   ms/op
+JavaMappingFrameworksBenchmark.realLifeTest:orikaMapperRealLifeBenchmark                  ss        3      31.194 ±   976.364   ms/op
+JavaMappingFrameworksBenchmark.simpleTest                                                 ss        3       5.261 ±   163.981   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:dozerMapperSimpleBenchmark                      ss        3      10.871 ±   339.663   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:mapStructMapperSimpleBenchmark                  ss        3       0.418 ±    13.132   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:modelMapperBenchmark                            ss        3       5.393 ±   167.115   ms/op
+JavaMappingFrameworksBenchmark.simpleTest:orikaMapperSimpleBenchmark                      ss        3       4.362 ±   136.016   ms/op
